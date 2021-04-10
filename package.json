@@ -20,6 +20,8 @@
   },
   "devDependencies": {
     "@babel/core": "7.13.15",
+    "@emotion/react": "11.1.5",
+    "@emotion/styled": "11.3.0",
     "@size-limit/preset-small-lib": "4.10.2",
     "@storybook/addon-essentials": "6.2.7",
     "@storybook/addon-info": "5.3.21",
@@ -31,6 +33,7 @@
     "@typescript-eslint/eslint-plugin": "4.21.0",
     "@typescript-eslint/parser": "2.27.0",
     "babel-loader": "8.2.2",
+    "babel-plugin-module-resolver": "^4.1.0",
     "eslint": "6.5.1",
     "eslint-config-prettier": "8.1.0",
     "eslint-plugin-import": "2.22.1",
@@ -48,9 +51,7 @@
     "size-limit": "4.10.2",
     "tsdx": "0.14.1",
     "tslib": "2.2.0",
-    "typescript": "4.2.4",
-    "@emotion/react": "11.1.5",
-    "@emotion/styled": "11.3.0"
+    "typescript": "4.2.4"
   },
   "husky": {
     "hooks": {

@@ -1,17 +1,14 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "outDir": "./src",
-    "paths": {
-      "*": [
-        "./node_modules/@types/*"
-      ],
-      "@/*": [
-        "./src/*"
-      ],
-    },
+    "outDir": "./dist",
     "target": "ESNext",
     "module": "es2015",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
     "lib": [
       "es2020",
       "dom"

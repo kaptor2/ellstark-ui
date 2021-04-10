@@ -1,11 +1,8 @@
+import {Color} from '@/commonStyle';
 import styled from '@emotion/styled';
 
-type ContainerProps = {
-    color: string;
-};
-
-export const Container = styled.div<ContainerProps>(({color}) => {
+export const Container = styled.div(() => {
     return {
-        backgroundColor: color,
+        backgroundColor: Color.white,
     };
 });
