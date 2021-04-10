@@ -1,0 +1,5 @@
+storybook-static/*
+dist/*
+example/*
+.eslintrc.js
+src/storybook/storyLoader.js
