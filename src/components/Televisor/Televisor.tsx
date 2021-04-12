@@ -8,7 +8,7 @@ type TelevisorProps = {
 };
 
 export const Televisor: React.FC<TelevisorProps> = ({leftMenu, content}) => {
-    const [hover, setHover] = useState(false);
+    const [hover, setHover] = useState(true);
 
     const onMouseOver = useCallback(() => {
         setHover(true);
@@ -21,7 +21,7 @@ export const Televisor: React.FC<TelevisorProps> = ({leftMenu, content}) => {
     return (
         <Styled.Container>
             <Styled.LeftMenu {...{onMouseOver, onMouseOut}}>{leftMenu()}</Styled.LeftMenu>
-            <Styled.ContentContainer>
+            <Styled.ContentContainer scale={hover}>
                 <Styled.Content rotate={hover}>{content()}</Styled.Content>
             </Styled.ContentContainer>
         </Styled.Container>
